@@ -1,0 +1,31 @@
+import './App.css';
+
+import Counter from './components/Counter';
+import TodoList from './components/TodoList';
+import ProfileCard from './components/ProfileCard';
+import SearchBox from './components/SearchBox';
+
+function App() {
+  return (
+    <main>
+<h1>Week 10 React Hooks Assignment</h1>
+
+  <Counter />
+
+  <hr />
+
+  <TodoList />
+
+  <hr />
+
+  <ProfileCard />
+
+  <hr />
+
+  <SearchBox />
+</main>
+    
+  );
+}
+
+export default App;
